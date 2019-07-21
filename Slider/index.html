@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="block">
+<div class="slider" >
+    <div class="items-wrapper">
+        <div class="item" id="item">
+            <img src="img/23000.jpg" alt="Первый слайд">
+        </div>
+        <div class="item">
+            <img src="img/23000_003.jpg" alt="Второй слайд">
+        </div>
+        <div class="item">
+            <img src="img/23000_008.jpg" alt="Третий слайд">
+        </div>
+    </div>
+
+  	<a class="prev" onclick="minusSlide()">&#10094;</a>
+      <a class="next" onclick="plusSlide()">&#10095;</a>
+      <div class="slider-dots">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>	
+</body>
+</html>
