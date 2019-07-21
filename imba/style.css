@@ -1,0 +1,289 @@
+html{
+    background: black;
+
+}
+
+body{
+ margin: 0;   
+background: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+background: #f6f6f6;
+height: 79px;
+}
+
+.footer{
+    background: #363636;
+     height: 216px;
+}
+
+.header-content{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+.content-content{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+.menu{
+flex: 1;
+display: flex;
+justify-content: center;
+}
+.menu-item a{
+color: black;
+text-decoration: none;
+padding: 10px 15px;
+font-weight: 650;
+}
+
+.menu-item a:hover{
+    background: black;
+    color: white;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+}
+
+.current-lang{
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.lang{
+    background: white;
+    color: black;
+    text-align: center;
+    width: 100px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.lang:first-child{
+ border-bottom: 1px solid black;   
+}
+
+.text1{
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.text1 h1,
+.text1 h3{
+    margin: 0;
+}
+
+.roulette{
+    height: 340px;
+    background: #00cc66;
+}
+.roulette-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0;
+    color: white;
+}
+.roulette-footer-item{
+    flex: 1;
+}
+.rules-text p{
+    margin: 0;
+    font-size: 12px;
+}
+.roulette-footer-item.rules{
+    display: flex;
+}
+.rolle-button{
+    display: flex;
+    justify-content:center;
+}
+.taste{
+    text-align: right;
+}
+.rules-title{
+    width: 16px;
+    font-size: 13px;
+}
+
+.rules-title div{
+    position: relative;
+    bottom: -65%;
+    transform: rotate(270deg);
+}
+.rules-text{
+    padding: 10px 0;
+}
+.rules-line{
+    width: 3px;
+    margin: 0 10px;
+    background: #00cc66;
+}
+.button{
+    display: inline-block;
+    background: #00cc66;
+    border-radius: 30px;
+}
+
+.count,.button-item{
+padding: 20px;
+display: inline-block;
+cursor: pointer;
+
+}
+.count{
+    border-right: 1px solid white;
+
+}
+
+.taste-selector{
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    float: right;
+    border-radius: 27px;
+    
+}
+.taste1,.taste2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid;
+    background: black;
+    border-color: white;
+}
+.taste1.selected{
+    background: #ff6c3d;
+    border-color: #ff6c3d;
+}
+.taste2.selected{
+    background: #ec4444;
+    border-color: #ec4444;
+}
+.taste-selector > div{
+    margin: 0 10px;
+
+
+} 
+
+.text2{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.text2 > p{
+margin: 0;
+}
+
+.form{
+    margin: 10px 0 40px 0;
+}
+
+.inputs{
+display: flex;
+margin-bottom: 30px;
+}
+
+.inputs>input{
+    flex: 1;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+}
+.inputs>input:first-child{
+    margin-right:10px;
+}
+.inputs>input:last-child{
+    margin-left:10px;
+}
+.form .buttons{
+    display: flex;
+    justify-content: center;
+
+
+}
+.form .buttons button{
+    background: #00cc66;
+    border: none;
+    padding: 0;
+    display: flex;
+    color: white;
+    box-shadow: 0 0 20px 3px #00cc66;
+    cursor: pointer;
+}
+.form .buttons button div:first-child{
+    border-right: 1px solid white;
+    padding: 10px 30px;
+} 
+.form .buttons button div:last-child{
+    padding: 10px 15px;
+}
+.text10{
+    padding-top: 50px;
+    color: white;
+}
+.text11{
+    margin-top: 40px;
+    color: white;
+}
+.button{
+    display: flex;
+    align-items: center;
+   
+}
+.button img{
+    padding-left: 20px;
+}
+.text10 span:last-child{
+    float: right;
+    display: flex;
+    padding-left: 5px;
+}
+
+
+.congratulations{
+    display: none;
+}
+.roulette{
+    display: flex;
+    align-items: stretch;
+}
+.roulette-conteiner{
+    flex: 1;
+}
+.roulette-conteiner>div{
+display: none;
+}
+.roulette2{
+    background: white;
+}
+.arrow{
+    float: right;
+    display: flex;
+    padding-top: 30px;
+    padding-right: 10px;
+    transform: rotate(90deg);
+}
+.text10 img{
+    padding-left: 40px;
+}
